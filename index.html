@@ -4,50 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Thattukada FM</title>
-    <style>
-      body {
-        background: rgb(224, 220, 183);
-        background: linear-gradient(
-          188deg,
-          rgba(224, 220, 183, 1) 0%,
-          rgba(151, 179, 203, 1) 50%,
-          rgba(151, 179, 203, 1) 100%
-        );
-        margin: 0;
-        height: 100vh;
-      }
-
-      #chanels-container {
-        height: 10px;
-        opacity: 0;
-      }
-
-      #track-title-container,
-      #timer-container {
-        /* color: rgb(254, 254, 254) !important; */
-      }
-
-      #timer-container {
-        font-size: 1.2rem;
-      }
-
-      .next-programs {
-        display: grid;
-        justify-content: center;
-        margin-top: 1rem;
-      }
-
-      .programs {
-        padding: 0;
-        margin: 0;
-      }
-
-      .programs li {
-        font-size: 1rem;
-        padding-bottom: 0.2rem;
-        color: #553ae9;
-      }
-    </style>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
     <div id="sc-player">
@@ -120,6 +78,15 @@
       </ul>
 
       <p>* all times are in Berlin local time</p>
+    </div>
+
+    <div class="footer">
+      <a
+        href="https://docs.google.com/document/d/1x5ErcesPToefaKiF3Gh0KowOJgycm9jPNOqmIUMqCA0/edit?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Impressum</a
+      >
     </div>
 
     <script

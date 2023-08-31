@@ -1,0 +1,43 @@
+body {
+  background: rgb(224, 220, 183);
+  background: linear-gradient(
+    188deg,
+    rgba(224, 220, 183, 1) 0%,
+    rgba(151, 179, 203, 1) 50%,
+    rgba(151, 179, 203, 1) 100%
+  );
+  margin: 0;
+  height: 100vh;
+}
+
+#chanels-container {
+  height: 10px;
+  opacity: 0;
+}
+
+#timer-container {
+  font-size: 1.8rem;
+}
+
+.next-programs {
+  display: grid;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.programs {
+  padding: 0;
+  margin: 0;
+}
+
+.programs li {
+  font-size: 1.5rem;
+  padding-bottom: 0.2rem;
+  color: #553ae9;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 1rem;
+}
