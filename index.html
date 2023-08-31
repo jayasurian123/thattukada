@@ -24,7 +24,28 @@
 
       #track-title-container,
       #timer-container {
-        color: rgb(1, 26, 249) !important;
+        /* color: rgb(254, 254, 254) !important; */
+      }
+
+      #timer-container {
+        font-size: 1.2rem;
+      }
+
+      .next-programs {
+        display: grid;
+        justify-content: center;
+        margin-top: 1rem;
+      }
+
+      .programs {
+        padding: 0;
+        margin: 0;
+      }
+
+      .programs li {
+        font-size: 1rem;
+        padding-bottom: 0.2rem;
+        color: #553ae9;
       }
     </style>
   </head>
@@ -86,6 +107,21 @@
         player-width="1000px"
       ></div>
     </div>
+    <div class="next-programs">
+      <ul class="programs">
+        <li>02.09 @10:00 - Berlin Gems</li>
+        <li>02.09 @20:00 - Berlin Gems (repeat)</li>
+        <li>03.09 @10:00 - Berlin Events & talks</li>
+        <li>03.09 @20:00 - Berlin Events & talks (repeat)</li>
+        <li>09.09 @10:00 - Europe Travel talks</li>
+        <li>09.09 @20:00 - Europe Travel talks (repeat)</li>
+        <li>10.09 @10:00 - Ring Ring Ningalude Choice</li>
+        <li>10.09 @10:00 - Ring Ring Ningalude Choice (repeat)</li>
+      </ul>
+
+      <p>* all times are in Berlin local time</p>
+    </div>
+
     <script
       type="text/javascript"
       src="https://eu10.fastcast4u.com:16450/media/static/js/sc_player/sc_player.js"
