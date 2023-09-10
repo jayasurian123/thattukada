@@ -36,6 +36,28 @@ body {
   color: #553ae9;
 }
 
+.program {
+  width: 100vw;
+  max-width: 40rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-column-gap: 1.5rem;
+  margin-bottom: 0.5rem;
+  align-items: center;
+  border: 1px solid #efefef;
+  padding: 0.5rem;
+  color: #e5e5e5;
+}
+
+.program-times p {
+  color: rgb(77 1 249);
+  font-size: 1.5rem;
+}
+.program-name {
+  color: #fff;
+  font-size: 1.6rem;
+}
+
 .footer {
   position: absolute;
   bottom: 0.5rem;
